@@ -24,8 +24,8 @@ public class Wind implements Serializable {
 
 	private static final long serialVersionUID = 7904690263161580585L;
 
-	private double speed;
+	private Double speed;
 	private int deg;
-	private double gust;
+	private Double gust;
 
 }

@@ -1,0 +1,11 @@
+application:
+  name: publicissapient-assignment
+  external:
+    web:
+      weatherAPIBaseURL: https://api.openweathermap.org/data/2.5
+      weatherforecastUrlResource: /forecast
+      appIdForWeatherAPI: d2929e9483efc82c82c32ee7e02d563e
+
+spring:
+  profiles:
+    active: \@activatedProperties\@

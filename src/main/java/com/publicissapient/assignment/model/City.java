@@ -28,9 +28,9 @@ public class City implements Serializable {
     private String name;
     private Coord coord;
     private String country;
-    private int population;
+    private Long population;
     private int timezone;
-    private int sunrise;
-    private int sunset;
+    private Long sunrise;
+    private Long sunset;
 
 }

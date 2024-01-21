@@ -3,7 +3,9 @@
  */
 package com.publicissapient.assignment.data.ingestion;
 
-import java.util.Map;
+import java.time.LocalDate;
+
+import com.publicissapient.assignment.data.entity.ForecastDetail;
 
 /**
  * @author Nilesh
@@ -11,5 +13,5 @@ import java.util.Map;
  */
 public interface WeatherDataIngestor {
 
-	public void ingestWeatherData(Map<String, Object> ingestionParams);
+	public ForecastDetail ingestWeatherData(String cityName, LocalDate date);
 }

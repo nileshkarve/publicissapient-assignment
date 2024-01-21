@@ -34,5 +34,6 @@ public class CityWeatherDetail implements Serializable {
     private int pop;
     private Sys sys;
     private String dt_txt;
-
+    private Rain rain;
+    private Snow snow;
 }

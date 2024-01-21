@@ -24,14 +24,14 @@ public class MainWeather implements Serializable {
 
 	private static final long serialVersionUID = -583633668247025547L;
 	
-	private double temp;
-    private double feels_like;
-    private double temp_min;
-    private double temp_max;
+	private Double temp;
+    private Double feels_like;
+    private Double temp_min;
+    private Double temp_max;
     private int pressure;
     private int sea_level;
     private int grnd_level;
     private int humidity;
-    private double temp_kf;
+    private Double temp_kf;
 
 }
